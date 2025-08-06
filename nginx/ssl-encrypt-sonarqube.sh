@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Replace with your desired domain and file path
-DOMAIN="app-sonarqube.duckdns.org"
+DOMAIN="rajeevxportfolio.netlify.app" # Put Your Domain Name
 CONFIG_FILE="/etc/nginx/sites-available/$DOMAIN"
 
 # Create Nginx configuration file

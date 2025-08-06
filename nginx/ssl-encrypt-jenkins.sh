@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Replace with your desired domain and file path
-DOMAIN="app-jenkins.duckdns.org"
+DOMAIN="rajeevxportfolio.netlify.app"
 CONFIG_FILE="/etc/nginx/sites-available/$DOMAIN"
 
 # Create Nginx configuration file

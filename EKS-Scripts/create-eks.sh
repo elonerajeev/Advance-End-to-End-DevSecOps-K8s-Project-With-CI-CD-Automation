@@ -8,12 +8,12 @@ CLUSTER_NAME="Three-Tier-K8s-EKS-Cluster"
 NODES_COUNT=2
 
 # Set subnet IDs
-SUBNET_ID_1="subnet-03eb2df93159b54ce"
-SUBNET_ID_2="subnet-097cc554b69d50e63"
+SUBNET_ID_1="subnet-.....ce" #Set Your Subnet
+SUBNET_ID_2="subnet-.....63" #Set Your Subnet
 
 # Roles ARN
-CLUSTER_ROLE_ARN="arn:aws:iam::490108295743:role/My-Cluster-Role"
-NODE_ROLE_ARN="arn:aws:iam::490108295743:role/NodeGroupIAM"
+CLUSTER_ROLE_ARN="arn:aws:iam::<ID>:role/My-Cluster-Role"
+NODE_ROLE_ARN="arn:aws:iam::<ID>:role/NodeGroupIAM"
 
 # Set Security Group ID
 SECURITY_ID="sg-039ee5905cc775085"
